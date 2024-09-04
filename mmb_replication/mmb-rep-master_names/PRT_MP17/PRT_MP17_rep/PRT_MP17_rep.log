@@ -1,0 +1,65 @@
+Starting Dynare (version 5.0).
+Calling Dynare with arguments: noclearall nograph nostrict
+Starting preprocessing of the model file ...
+Found 23 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+        2.77e-16        -2.77e-16                0
+             0.5              0.5                0
+          0.5075           0.5075                0
+          0.7911           0.7911                0
+             0.9              0.9                0
+            0.99             0.99                0
+            0.99             0.99                0
+            0.99             0.99                0
+            0.99             0.99                0
+            0.99             0.99                0
+          0.9922           0.9922                0
+          0.9972           0.9972                0
+           1.028            1.028                0
+           1.308            1.308                0
+           2.005            2.005                0
+             Inf              Inf                0
+
+
+There are 4 eigenvalue(s) larger than 1 in modulus 
+for 4 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+STEADY-STATE RESULTS:
+
+y          		 0
+c          		 0
+n          		 0
+r          		 0
+cs         		 0
+cb         		 0
+pinf       		 0
+winf       		 0
+cpinf      		 0
+bh         		 0
+g          		 0
+trans      		 0
+w          		 0
+tot        		 0
+bg_nom     		 0
+nfa        		 0
+zbh_nom    		 0
+zr         		 0
+zg_nom     		 0
+ztrans_nom 		 0
+zcf        		 0
+zrecap     		 0
+zprod      		 0
+Total computing time : 0h00m00s

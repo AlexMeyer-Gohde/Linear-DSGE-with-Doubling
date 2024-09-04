@@ -1,0 +1,118 @@
+Starting Dynare (version 5.0).
+Calling Dynare with arguments: noclearall nograph nostrict
+Starting preprocessing of the model file ...
+Substitution of endo lags >= 2: added 2 auxiliary variables and equations.
+Found 18 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+STEADY-STATE RESULTS:
+
+p                		 0
+y                		 0
+lambdda          		 0
+w                		 0
+R                		 0
+z                		 0
+lambddap         		 0
+pit              		 0
+b                		 0
+ystar            		 0
+lambddastar      		 0
+wstar            		 0
+Rstar            		 0
+inflgap          		 0
+realR            		 0
+outpgap          		 0
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0 : 1
+Equation number 2 : 0 : wstar
+Equation number 3 : 0 : 3
+Equation number 4 : 0 : 4
+Equation number 5 : 0 : 5
+Equation number 6 : 0 : 6
+Equation number 7 : 0 : 7
+Equation number 8 : 0 : 8
+Equation number 9 : 0 : 9
+Equation number 10 : 0 : z
+Equation number 11 : 0 : lambddap
+Equation number 12 : 0 : pit
+Equation number 13 : 0 : b
+Equation number 14 : 0 : inflgap
+Equation number 15 : 0 : realR
+Equation number 16 : 0 : outpgap
+
+
+
+MODEL SUMMARY
+
+  Number of variables:         18
+  Number of stochastic shocks: 5
+  Number of state variables:   10
+  Number of jumpers:           5
+  Number of static variables:  6
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables           Rs         zs  lambddaps       pits         bs
+Rs            0.000000   0.000000   0.000000   0.000000   0.000000
+zs            0.000000   0.000000   0.000000   0.000000   0.000000
+lambddaps     0.000000   0.000000   0.000000   0.000000   0.000000
+pits          0.000000   0.000000   0.000000   1.000000   0.000000
+bs            0.000000   0.000000   0.000000   0.000000   0.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                             inflgap           realR
+R(-1)                      -0.008226        0.566370
+z(-1)                      -0.000283       -0.001385
+lambddap(-1)                0.336751       -0.305443
+pit(-1)                     0.160678       -1.223513
+b(-1)                       0.006559        0.017220
+p(-2)                      -0.004882        0.129753
+p(-3)                      -0.002127        0.146453
+p(-1)                      -0.008105        0.116262
+y(-1)                       0.000388        0.098014
+ystar(-1)                   0.001812       -0.069255
+Rs                         -0.012995        0.894739
+zs                         -0.000954       -0.004664
+lambddaps                   1.320594       -1.197815
+pits                        0.161485       -1.229662
+bs                          0.007488        0.019658
+
+
+THEORETICAL MOMENTS
+VARIABLE         MEAN  STD. DEV.   VARIANCE
+inflgap        0.0000     1.3623     1.8559
+realR          0.0000     1.7178     2.9508
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                  Rs         zs  lambddaps       pits         bs
+inflgap         0.00       0.00       0.00     100.00       0.00
+realR           0.00       0.00       0.00     100.00       0.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables    inflgap    realR
+inflgap       1.0000  -0.2776
+realR        -0.2776   1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order           1       2       3       4       5
+inflgap    0.9929  0.9865  0.9807  0.9754  0.9703
+realR      0.6865  0.3881  0.1696  0.0688  0.0279
+Total computing time : 0h00m00s

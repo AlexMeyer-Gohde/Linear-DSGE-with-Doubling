@@ -1,0 +1,86 @@
+Starting Dynare (version 5.0).
+Calling Dynare with arguments: noclearall nograph nostrict
+Starting preprocessing of the model file ...
+WARNING: eg dummy_G not used in model block, removed by nostrict command-line option
+Found 62 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+[Warning: Some of the parameters have no value (ccs, cinvs, crdpi, rstar, std_r_quart) when using steady. If these parameters
+are not initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to solve the model. Note that
+simul, perfect_foresight_setup, and perfect_foresight_solver do not automatically call the steady state file.] 
+
+STEADY-STATE RESULTS:
+
+labobs       		 0.5839
+robs         		 1.56769
+pinfobs      		 0.8034
+dy           		 0.4444
+dc           		 0.4444
+dinve        		 0.4444
+dw           		 0.4444
+ewma         		 0
+epinfma      		 0
+zcapf        		 0
+rkf          		 0
+kf           		 0
+pkf          		 0
+cf           		 0
+invef        		 0
+yf           		 0
+labf         		 0
+wf           		 0
+rrf          		 0
+mc           		 0
+zcap         		 0
+rk           		 0
+k            		 0
+pk           		 0
+c            		 0
+inve         		 0
+y            		 0
+lab          		 0
+pinf         		 0
+w            		 0
+r            		 0
+a            		 0
+b            		 0
+g            		 0
+qs           		 0
+ms           		 0
+spinf        		 0
+sw           		 0
+kpf          		 0
+kp           		 0
+pinf4        		 0
+c_lc         		 0
+c_nlc        		 0
+debt         		 0
+t            		 0
+c_lcf        		 0
+c_nlcf       		 0
+debtf        		 0
+tf           		 0
+interest     		 0
+inflation    		 0
+inflationq   		 0
+outputgap    		 0
+output       		 0
+pinflag1     		 0
+pinflag2     		 0
+dlab         		 0
+realinterest 		 3.05716
+mcf          		 0
+pinfobs4     		 3.2136
+gry          		 1.7776
+robs4        		 6.27076
+[Warning: Some of the parameters have no value (ccs, cinvs, crdpi, rstar, std_r_quart) when using stoch_simul. If these
+parameters are not initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to solve the model.
+Note that simul, perfect_foresight_setup, and perfect_foresight_solver do not automatically call the steady state file.] 
+Total computing time : 0h00m00s
+Note: 1 warning(s) encountered in the preprocessor
+Note: warning(s) encountered in MATLAB/Octave code

@@ -1,0 +1,81 @@
+Starting Dynare (version 5.0).
+Calling Dynare with arguments: noclearall nograph nostrict
+Starting preprocessing of the model file ...
+WARNING: you are using a function (max, min, abs, sign) or an operator (<, >, <=, >=, ==, !=) which is unsuitable for a stochastic context; see the reference manual, section about "Expressions", for more details.
+Found 33 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+STEADY-STATE RESULTS:
+
+C       		 1.96842
+Inv     		 0.709521
+S_Inv   		 0
+dS_Inv  		 7.49537e-05
+H       		 0.903415
+Y       		 2.67794
+tau     		 0.02337
+K       		 29.2092
+N       		 29.2092
+Ng      		 0
+LY      		 1.59999
+QK      		 29.8619
+GDP     		 2.67799
+R       		 1.00536
+Q       		 1.02235
+pI      		 1.00007
+RK      		 0.0311758
+rK      		 0.0311732
+rr      		 1.00545
+rr0     		 1.00657
+ERQ     		 1.0062
+w       		 1.95632
+infl_w  		 0.999906
+X1w     		 3.5009
+X2w     		 3.51278
+mc      		 0.909084
+infl    		 0.999906
+X1p     		 5.3211
+X2p     		 5.3226
+Delta_p 		 1
+CY      		 0.00111252
+Spr     		 0.000749025
+phi     		 0.3092
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+       2.962e-16       -2.962e-16                0
+       6.273e-14       -6.273e-14                0
+       1.618e-10       -1.618e-10                0
+       1.619e-10        1.619e-10                0
+          0.7477           0.7477                0
+          0.7626           0.7626                0
+          0.9072           0.9072                0
+          0.9714           0.9714                0
+           0.984            0.984                0
+           1.017            1.017                0
+           1.086            1.084          0.06079
+           1.086            1.084         -0.06079
+           1.342            1.342                0
+            1.35             1.35          0.01533
+            1.35             1.35         -0.01533
+       6.817e+15        6.817e+15                0
+             Inf              Inf                0
+             Inf              Inf                0
+             Inf              Inf                0
+             Inf              Inf                0
+
+
+There are 11 eigenvalue(s) larger than 1 in modulus 
+for 11 forward-looking variable(s)
+
+The rank condition is verified.
+
+Total computing time : 0h00m00s
+Note: 1 warning(s) encountered in the preprocessor
