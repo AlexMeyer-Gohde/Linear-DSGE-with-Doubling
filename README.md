@@ -1,4 +1,4 @@
-Solving Linear DSGE Models with Bernoulli Methods
+Solving Linear DSGE Models with Structure Preserving Doubling Methods
 
 The directory structure is as follows:
 
